@@ -1,0 +1,20 @@
+{
+  "name": "foundrynet",
+  "owner": { "name": "FoundryNet Labs", "url": "https://foundrynet.io" },
+  "metadata": {
+    "description": "FoundryNet Claude Code plugins — MINT Protocol work attestation and more.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mint-attest",
+      "source": "./",
+      "description": "Attest completed work on MINT Protocol. Tamper-evident proof that your agent did the work.",
+      "version": "1.0.0",
+      "author": { "name": "FoundryNet Labs", "url": "https://foundrynet.io" },
+      "homepage": "https://mint.foundrynet.io",
+      "license": "MIT",
+      "keywords": ["attestation", "mint-protocol", "solana", "provenance"]
+    }
+  ]
+}

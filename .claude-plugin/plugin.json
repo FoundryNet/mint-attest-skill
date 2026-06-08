@@ -1,0 +1,21 @@
+{
+  "name": "mint-attest",
+  "version": "1.0.0",
+  "description": "Attest completed work on MINT Protocol. Tamper-evident proof that your agent did the work.",
+  "author": {
+    "name": "FoundryNet Labs",
+    "url": "https://foundrynet.io"
+  },
+  "homepage": "https://mint.foundrynet.io",
+  "license": "MIT",
+  "keywords": [
+    "attestation",
+    "mint-protocol",
+    "solana",
+    "provenance",
+    "verifiable-work"
+  ],
+  "skills": [
+    "./skills/mint-attest"
+  ]
+}
