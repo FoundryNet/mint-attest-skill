@@ -11,7 +11,7 @@ Skips silently when `MINT_API_KEY` is unset, so it never blocks a task.
 ## Install
 
 ```bash
-claude plugin marketplace add foundrynet/mint-attest-skill
+claude plugin marketplace add FoundryNet/mint-attest-skill
 claude plugin install mint-attest@foundrynet
 ```
 
