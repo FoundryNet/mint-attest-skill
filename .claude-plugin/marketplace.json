@@ -2,8 +2,8 @@
   "name": "foundrynet",
   "owner": { "name": "FoundryNet Labs", "url": "https://foundrynet.io" },
   "metadata": {
-    "description": "FoundryNet Claude Code plugins — MINT Protocol work attestation and more.",
-    "version": "1.0.0"
+    "description": "FoundryNet Claude Code plugins — MINT Protocol work attestation plus the FoundryNet Data Network (market, weather, cyber, financial, and crypto intelligence).",
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -15,6 +15,56 @@
       "homepage": "https://mint.foundrynet.io",
       "license": "MIT",
       "keywords": ["attestation", "mint-protocol", "solana", "provenance"]
+    },
+    {
+      "name": "foundrynet-market-data",
+      "source": { "source": "github", "repo": "FoundryNet/market-data-mcp" },
+      "description": "Real-time equity quotes, sector performance, options chains, historical prices, and stock screening from the FoundryNet Data Network.",
+      "version": "1.0.0",
+      "author": { "name": "FoundryNet Labs", "url": "https://foundrynet.io" },
+      "homepage": "https://market-data-mcp-production.up.railway.app/mcp",
+      "license": "MIT",
+      "keywords": ["market-data", "stocks", "equities", "options", "finance"]
+    },
+    {
+      "name": "foundrynet-weather-intelligence",
+      "source": { "source": "github", "repo": "FoundryNet/weather-intel-mcp" },
+      "description": "Keyless weather + climate intelligence (Open-Meteo + NWS) — current conditions, severe alerts, forecasts, climate normals, and agricultural outlooks.",
+      "version": "1.0.0",
+      "author": { "name": "FoundryNet Labs", "url": "https://foundrynet.io" },
+      "homepage": "https://weather-intel-mcp-production.up.railway.app/mcp",
+      "license": "MIT",
+      "keywords": ["weather", "climate", "forecast", "nws", "agriculture"]
+    },
+    {
+      "name": "foundrynet-cyber-intelligence",
+      "source": { "source": "github", "repo": "FoundryNet/cyber-intel-mcp" },
+      "description": "CVE lookup with exploit-probability (EPSS) + CISA KEV, IP/domain threat reputation, and daily threat briefs from the FoundryNet Data Network.",
+      "version": "1.0.0",
+      "author": { "name": "FoundryNet Labs", "url": "https://foundrynet.io" },
+      "homepage": "https://cyber-intel-mcp-production.up.railway.app/mcp",
+      "license": "MIT",
+      "keywords": ["cve", "epss", "cisa-kev", "threat-intelligence", "security"]
+    },
+    {
+      "name": "foundrynet-financial-intelligence",
+      "source": { "source": "github", "repo": "FoundryNet/financial-signals-mcp" },
+      "description": "Real-time market signals, insider-trading detection, earnings analysis, and composite stock scoring from the FoundryNet Data Network.",
+      "version": "1.0.0",
+      "author": { "name": "FoundryNet Labs", "url": "https://foundrynet.io" },
+      "homepage": "https://financial-signals-mcp-production.up.railway.app/mcp",
+      "license": "MIT",
+      "keywords": ["finance", "insider-trading", "earnings", "stock-signals", "market-intelligence"]
+    },
+    {
+      "name": "foundrynet-crypto-intelligence",
+      "source": { "source": "github", "repo": "FoundryNet/crypto-intel-mcp" },
+      "description": "Real-time crypto prices, market overview, DeFi metrics, and whale-movement alerts from the FoundryNet Data Network.",
+      "version": "1.0.0",
+      "author": { "name": "FoundryNet Labs", "url": "https://foundrynet.io" },
+      "homepage": "https://crypto-intel-mcp-production.up.railway.app/mcp",
+      "license": "MIT",
+      "keywords": ["crypto", "defi", "whale-alerts", "bitcoin", "market-data"]
     }
   ]
 }
